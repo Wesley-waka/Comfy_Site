@@ -4,6 +4,8 @@ import { useFilterContext, getUniqueValues } from '../context/filter_context'
 
 
 const Filters = () => {
+
+  // The Filtering Components initializes every category to empty at launch
   const {
     filters: {
       text,
@@ -16,6 +18,7 @@ const Filters = () => {
     all_products,
   } = useFilterContext()
 
+  // returns a set/array of categories/companies depending on the type
   const categories = getUniqueValues(all_products, 'category')
   const companies = getUniqueValues(all_products, 'company')
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { useFilterContext } from '../context/filter_context'
 import styled from 'styled-components'
 const Sort = () => {
+  // filters then sorts the data according to the e.target
   const {
     filtered_products: products,
     sort,

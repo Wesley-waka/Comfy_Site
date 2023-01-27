@@ -6,12 +6,15 @@ import Loading from './Loading'
 import Product from './Product'
 
 const FeaturedProducts = () => {
-
+  // The initial state when the project is opened
   const {
     products_loading: loading,
     products_error: error,
     featured_products: featured,
   } = useProductsContext()
+
+  // If product is loading Then th load component will be displayed
+  // else the loading component still loads :)
   if (loading) {
     return <Loading />
   }
