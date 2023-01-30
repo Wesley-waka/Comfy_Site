@@ -55,6 +55,7 @@ const ListView = ({ products }) => {
     <Wrapper>
       <form className="row p-3" onSubmit={handleSubmit}>
         <div className="col-3">
+          <label>Furniture name:</label>
           <input
             name="date"
             onChange={handleChange}
@@ -65,6 +66,7 @@ const ListView = ({ products }) => {
           />
         </div>
         <div className="col-3">
+          <label>Furniture description:</label>
           <input
             name="description"
             onChange={handleChange}
@@ -74,6 +76,7 @@ const ListView = ({ products }) => {
           />
         </div>
         <div className="col-3">
+          <label>Image URL:</label>
           <input
             name="category"
             onChange={handleChange}
@@ -83,6 +86,7 @@ const ListView = ({ products }) => {
           />
         </div>
         <div className="col-3">
+          <label>Company:</label>
           <input
             name="amount"
             onChange={handleChange}
@@ -92,6 +96,7 @@ const ListView = ({ products }) => {
           />
         </div>
         <div className="col-3">
+          <label>Amount:</label>
           <input
             name="amount"
             onChange={handleChange}
@@ -101,6 +106,7 @@ const ListView = ({ products }) => {
           />
         </div>
         <div className="col-3">
+          <label>Category:</label>
           <input
             name="amount"
             onChange={handleChange}
