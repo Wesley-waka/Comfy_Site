@@ -36,6 +36,7 @@ const Nav = () => {
     </NavContainer>
   )
 }
+// My STYLING Using styled component module
 
 const NavContainer = styled.nav`
   height: 5rem;

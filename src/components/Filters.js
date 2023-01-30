@@ -101,6 +101,7 @@ const Filters = () => {
     </Wrapper>
   )
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.section`
   .form-control {

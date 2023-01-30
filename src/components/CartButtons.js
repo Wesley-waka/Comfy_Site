@@ -24,7 +24,7 @@ const CartButtons = () => {
     </Wrapper>
   )
 }
-
+// My STYLING Using styled component module
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;

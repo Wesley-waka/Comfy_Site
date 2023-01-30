@@ -10,6 +10,7 @@ const PageHero = ({ title }) => {
     </div>
   </Wrapper>
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.section`
   background: var(--clr-primary-10);

@@ -32,6 +32,7 @@ const Sort = () => {
     </Wrapper>
   )
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.section`
   display: grid;

@@ -26,6 +26,7 @@ const Hero = () => {
     </Wrapper>
   )
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.section`
   min-height: 60vh;

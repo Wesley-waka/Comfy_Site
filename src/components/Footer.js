@@ -7,6 +7,7 @@ const Footer = () => {
   </Wrapper>)
 
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.footer`
   height: 5rem;

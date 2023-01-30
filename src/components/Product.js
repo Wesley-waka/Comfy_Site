@@ -19,6 +19,7 @@ const Product = ({ image, name, price, id }) => {
     </Wrapper>
   )
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.article`
   .container {

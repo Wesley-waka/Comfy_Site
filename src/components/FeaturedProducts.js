@@ -38,6 +38,7 @@ const FeaturedProducts = () => {
     </Wrapper>
   )
 }
+// My STYLING Using styled component module
 
 const Wrapper = styled.section`
   background: var(--clr-grey-10);

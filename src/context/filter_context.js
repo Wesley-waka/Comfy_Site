@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useReducer } from 'react'
 import reducer from '../reducers/filter_reducer'
 import { useProductsContext } from './products_context'
 
-
+// INITIALIZATION FOR MY WEB PAGE ON THE FIRST LAUNCH
 const LOAD_PRODUCTS = 'LOAD_PRODUCTS'
 const UPDATE_SORT = 'UPDATE_SORT'
 const SORT_PRODUCTS = 'SORT_PRODUCTS'
@@ -20,11 +20,13 @@ const initialState = {
     shipping: false,
   },
 }
-
+//Filter Context
 const FilterContext = React.createContext()
-
+// Filter provider
 export const FilterProvider = ({ children }) => {
+  // products context 
   const { products } = useProductsContext()
+  // reducer from filter reducer 
   const [state, dispatch] = useReducer(reducer, initialState)
 
   useEffect(() => {
@@ -48,7 +50,7 @@ export const FilterProvider = ({ children }) => {
     if (name === 'category') {
       value = e.target.textContent
     }
-   
+
     if (name === 'shipping') {
       value = e.target.checked
     }

@@ -21,6 +21,9 @@ const Contact = () => {
     </div>
   </Wrapper>
 }
+
+// My STYLING Using styled component module
+
 const Wrapper = styled.section`
   padding: 5rem 0;
   h3 {

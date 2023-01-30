@@ -1,5 +1,6 @@
 import React from 'react'
-import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi'
+import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi' /**gi-icons used for my history,mission and vision  */
+// links constant for my navigation in the app
 export const links = [
   {
     id: 1,
@@ -18,6 +19,7 @@ export const links = [
   },
 ]
 
+// services constant for my services in the home page
 export const services = [
   {
     id: 1,
